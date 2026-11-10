@@ -24,3 +24,6 @@
 .leadership-brand{width:160px;height:190px;display:flex;align-items:center;justify-content:center}
 .leadership-brand img{display:block;width:135px;height:auto;object-fit:contain}
 @media(max-width:640px){.leadership-brand{width:108px;height:112px;margin-bottom:25px}.leadership-brand img{width:80px}}
+
+.hero-picture{position:absolute;inset:0;z-index:0;display:block;overflow:hidden}
+@media(max-width:640px){.hero-picture{inset:0 0 auto;height:44vw;background:#159bd4}.hero-cover{height:100%;object-fit:contain;object-position:center center;mask-image:none;-webkit-mask-image:none}.hero:after{inset:0 0 auto;height:44vw}.hero-inner{padding:calc(44vw + 20px) 0 52px}.hero h1{font-size:clamp(38px,10.5vw,44px);line-height:1.02}}

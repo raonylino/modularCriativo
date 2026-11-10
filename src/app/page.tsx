@@ -27,7 +27,9 @@ export default function HomePage() {
       </header>
       <main>
         <section className="hero" id="inicio">
-          <Image className="hero-cover" src="/capa-modular.jpg" alt="Estudante com livros ao lado de um laptop com páginas abertas" fill priority sizes="100vw" />
+          <picture className="hero-picture">
+            <Image className="hero-cover" src="/capa-modular.jpg" alt="Estudante com livros ao lado de um laptop com páginas abertas" fill priority sizes="100vw" />
+          </picture>
           <div className="container hero-inner">
             <div className="hero-copy">
               <p className="eyebrow"><span /> CONTEÚDO QUE TRANSFORMA APRENDIZAGEM</p>
