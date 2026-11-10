@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" rx="28" fill="#F5A623"/>
+  <path d="M0 0H800V202C642 242 509 218 380 265C231 320 94 294 0 270V0Z" fill="#315FA8"/>
+  <circle cx="659" cy="156" r="126" fill="#F27867"/>
+  <rect x="170" y="342" width="460" height="312" rx="24" fill="#F8F7F4" transform="rotate(-5 170 342)"/>
+  <rect x="191" y="363" width="460" height="312" rx="24" fill="#183768" transform="rotate(4 191 363)"/>
+  <rect x="203" y="356" width="460" height="312" rx="24" fill="#F8F7F4"/>
+  <path d="M263 435H603M263 490H530M263 545H580" stroke="#D9DDE4" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="273" cy="607" r="23" fill="#F27867"/><path d="M263 607l8 8 15-18" stroke="#183768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="355" cy="607" r="23" fill="#F5A623"/><path d="M345 607l8 8 15-18" stroke="#183768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="64" y="83" fill="#F8F7F4" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">MODULAR CRIATIVO</text>
+  <text x="64" y="764" fill="#183768" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="5">COLEÇÃO • 03</text>
+  <text x="64" y="837" fill="#183768" font-family="Arial,sans-serif" font-size="62" font-weight="800">FORMAÇÃO</text>
+  <text x="64" y="903" fill="#183768" font-family="Arial,sans-serif" font-size="62" font-weight="800">GERAL</text>
+  <text x="64" y="951" fill="#183768" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="3">QUESTÕES E ESTUDOS</text>
+  <circle cx="675" cy="156" r="48" fill="#F5A623"/><path d="M655 156h40m-16-16 16 16-16 16" stroke="#183768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

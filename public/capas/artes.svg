@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" rx="28" fill="#315FA8"/>
+  <circle cx="650" cy="160" r="190" fill="#F5A623"/>
+  <path d="M0 710C190 610 316 835 520 730C640 668 722 638 800 670V1000H0V710Z" fill="#F27867"/>
+  <path d="M0 796C170 718 306 892 482 827C615 778 710 735 800 760V1000H0V796Z" fill="#F6D49B"/>
+  <circle cx="395" cy="435" r="204" stroke="#F8F7F4" stroke-width="30"/>
+  <circle cx="395" cy="435" r="127" stroke="#F5A623" stroke-width="20" stroke-dasharray="18 20"/>
+  <path d="M395 260V610M220 435H570M271 311L519 559M519 311L271 559" stroke="#F8F7F4" stroke-width="13" stroke-linecap="round" opacity=".82"/>
+  <text x="64" y="83" fill="#F8F7F4" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">MODULAR CRIATIVO</text>
+  <text x="64" y="712" fill="#183768" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="5">COLEÇÃO • 01</text>
+  <text x="64" y="790" fill="#183768" font-family="Arial,sans-serif" font-size="76" font-weight="800">ARTES</text>
+  <text x="64" y="838" fill="#183768" font-family="Arial,sans-serif" font-size="25" font-weight="600" letter-spacing="2">SLIDES E GRAVAÇÕES</text>
+  <text x="64" y="910" fill="#183768" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="3">6º AO 9º ANO</text>
+  <circle cx="675" cy="886" r="48" fill="#315FA8"/><path d="M655 886h40m-16-16 16 16-16 16" stroke="#F8F7F4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
