@@ -1,22 +1,23 @@
 import Image from "next/image";
 
 const products = [
-  { number: "01", title: "E-books e materiais didáticos", text: "Conteúdos desenvolvidos em formato unitário ou como kits didáticos para apoiar diferentes jornadas de aprendizagem.", icon: "▤" },
-  { number: "02", title: "Questões e estudos de caso", text: "Atividades contextualizadas, desafios colaborativos e questões para aprofundar o conhecimento.", icon: "◫" },
-  { number: "03", title: "Slides, roteiros e jogos", text: "Recursos dinâmicos que tornam os conteúdos mais claros, envolventes e fáceis de aplicar.", icon: "✳" },
-  { number: "04", title: "Atualização e tradução", text: "Revisamos e adaptamos materiais para acompanhar normas, regulamentações e tecnologias emergentes.", icon: "↗" },
+  { number: "01", title: "Videoaulas", text: "Produzimos videoaulas para o ensino fundamental, a educação técnica, a graduação e a pós-graduação.", icon: "▶" },
+  { number: "02", title: "E-books e materiais didáticos", text: "Conteúdos desenvolvidos em formato unitário ou como kits didáticos para apoiar diferentes jornadas de aprendizagem.", icon: "▤" },
+  { number: "03", title: "Questões e estudos de caso", text: "Atividades contextualizadas, desafios colaborativos e questões para aprofundar o conhecimento.", icon: "◫" },
+  { number: "04", title: "Slides, roteiros e jogos", text: "Recursos dinâmicos que tornam os conteúdos mais claros, envolventes e fáceis de aplicar.", icon: "✳" },
+  { number: "05", title: "Atualização e tradução", text: "Revisamos e adaptamos materiais para acompanhar normas, regulamentações e tecnologias emergentes.", icon: "↗" },
 ];
 
 const clients = [
   "Faculdade Prominas", "Faculdade Única", "Telesapiens", "FCE · Faculdade Campos Elíseos",
   "Anhanguera", "Unicesumar", "Unileste", "Belaprosa", "UBEC · União Brasileira de Educação Católica",
-  "Unyleya", "Unigranrio", "Faculeste",
+  "Unyleya", "Unigranrio", "Faculeste", "Uniúnica",
 ];
 
 export default function HomePage() {
   return (
     <>
-      <div className="topbar"><div className="container topbar-inner"><span><i /> Produção de conteúdo educacional desde 2016</span><span>São João da Boa Vista · SP</span></div></div>
+      <div className="topbar"><div className="container topbar-inner"><span className="topbar-desktop"><i /> Produção de conteúdo educacional desde 2016</span><span className="topbar-mobile"><i /> Conteúdo educacional desde 2016</span><span className="topbar-location">São João da Boa Vista · SP</span></div></div>
       <header className="site-header">
         <div className="container header-inner">
           <a href="#inicio" className="brand" aria-label="Modular Criativo, início"><Image src="/logo-modular-criativo.png" alt="Modular Criativo" width={500} height={288} priority /></a>
@@ -56,10 +57,10 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="numbers"><div className="container numbers-inner"><div><b>2016</b><span>início da nossa trajetória</span></div><i /><div><b>300<span>+</span></b><span>professores especialistas</span></div><i /><div><b>12</b><span>instituições parceiras</span></div><i /><div className="numbers-place"><b>SP</b><span>São João da Boa Vista</span></div></div></section>
+        <section className="numbers"><div className="container numbers-inner"><div><b>2016</b><span>início da nossa trajetória</span></div><i /><div><b>300<span>+</span></b><span>professores especialistas</span></div><i /><div><b>13</b><span>instituições parceiras</span></div><i /><div className="numbers-place"><b>SP</b><span>São João da Boa Vista</span></div></div></section>
 
         <section className="partners section-pad" id="parceiros">
-          <div className="container partners-layout"><div className="partners-intro"><p className="eyebrow"><span /> CONFIANÇA QUE SE CONSTRÓI JUNTO</p><h2>Parcerias que<br /><em>ensinam e inspiram.</em></h2><p>Trabalhamos lado a lado com instituições para desenvolver soluções alinhadas às suas necessidades, com diálogo, transparência e compromisso.</p><a href="#contato" className="under-link">Seja nosso parceiro <span>→</span></a></div><div className="client-panel"><div className="client-panel-top"><span>ALGUMAS INSTITUIÇÕES PARCEIRAS</span><b>01 — 12</b></div><div className="client-grid">{clients.map((client, i) => <div className="client-name" key={client}><span>{String(i + 1).padStart(2, "0")}</span>{client}</div>)}</div></div></div>
+          <div className="container partners-layout"><div className="partners-intro"><p className="eyebrow"><span /> CONFIANÇA QUE SE CONSTRÓI JUNTO</p><h2>Parcerias que<br /><em>ensinam e inspiram.</em></h2><p>Trabalhamos lado a lado com instituições para desenvolver soluções alinhadas às suas necessidades, com diálogo, transparência e compromisso.</p><a href="#contato" className="under-link">Seja nosso parceiro <span>→</span></a></div><div className="client-panel"><div className="client-panel-top"><span>ALGUMAS INSTITUIÇÕES PARCEIRAS</span><b>01 — 13</b></div><div className="client-grid">{clients.map((client, i) => <div className="client-name" key={client}><span>{String(i + 1).padStart(2, "0")}</span>{client}</div>)}</div></div></div>
         </section>
 
         <section className="leadership"><div className="container leadership-inner"><div className="leadership-brand"><Image src="/logo-modular.png" alt="Logo Modular Criativo" width={168} height={238} /></div><div><p className="eyebrow eyebrow--light"><span /> LIDERANÇA COM PROPÓSITO</p><h2>Educação, pesquisa<br />e compromisso social.</h2><p className="leader-name">Me. Silvia Cristina da Silva</p><p className="leader-bio">Mestre interdisciplinar em Educação, Ambiente e Sociedade pela UNIFAE, especialista em Educação a Distância e Docência do Ensino Superior, e graduada em Ciências Jurídicas e Sociais pela UNIFEB.</p></div><div className="leadership-mark">MODULAR<br /><b>CRIATIVO</b></div></div></section>
