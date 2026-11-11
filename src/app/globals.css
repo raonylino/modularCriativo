@@ -27,3 +27,6 @@
 
 .hero-picture{position:absolute;inset:0;z-index:0;display:block;overflow:hidden}
 @media(max-width:640px){.hero-picture{inset:0 0 auto;height:44vw;background:#159bd4}.hero-cover{height:100%;object-fit:contain;object-position:center center;mask-image:none;-webkit-mask-image:none}.hero:after{inset:0 0 auto;height:44vw}.hero-inner{padding:calc(44vw + 20px) 0 52px}.hero h1{font-size:clamp(38px,10.5vw,44px);line-height:1.02}}
+
+.contact-action>a.contact-phone{display:inline-flex;align-items:center;gap:9px;font-size:16px;white-space:nowrap;color:#168c54}
+.contact-phone svg{width:22px;height:22px;flex:0 0 22px;color:#25d366}
