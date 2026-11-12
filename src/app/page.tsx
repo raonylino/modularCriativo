@@ -44,6 +44,9 @@ const leaders = [
   },
 ];
 
+const unyleyaCoursesUrl =
+  "https://lp.unyleya.edu.br/modular?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAVhXlhleHRuA2FlbQIxMQBwZG9mAmZkaWQWUSAdSqOyel5Bim8JMnI2z0d-W6Z9VHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp5jwyaBs8jh0gdwaQuR0P226qLZhFDc7OzdeN0aV5Xv44xpGI-lRAw3q7HXX_aem_P56mmMfDT-jGtqpN0ENlGA";
+
 export default function HomePage() {
   return (
     <>
@@ -84,6 +87,17 @@ export default function HomePage() {
             <div className="section-heading"><div><p className="eyebrow"><span /> NOSSAS SOLUÇÕES</p><h2>Conteúdo sob medida.<br /><em>Aprendizagem que acontece.</em></h2></div><p>Desenvolvemos materiais didáticos como unidade ou em kits, de acordo com os objetivos de cada projeto.</p></div>
             <div className="product-grid">{products.map((product) => <article className="product-card" key={product.number}><div className="product-meta"><span>{product.number}</span><b aria-hidden="true">{product.icon}</b></div><div><h3>{product.title}</h3><p>{product.text}</p></div><a href="#contato" aria-label={`Fale conosco sobre ${product.title}`}>↗</a></article>)}</div>
             <div className="production-note"><span className="production-symbol">✳</span><p><b>Da ideia à entrega.</b> Conte com uma equipe especializada em cada etapa, do desenho pedagógico à produção e revisão do material.</p><a href="#contato">Vamos conversar <span>→</span></a></div>
+          </div>
+        </section>
+
+        <section className="sales-partner" aria-labelledby="sales-partner-title">
+          <div className="container sales-partner-inner">
+            <div className="sales-partner-copy">
+              <p className="eyebrow"><span /> PARCERIA DE VENDAS · UNYLEYA</p>
+              <h2 id="sales-partner-title">Cursos para seguir <em>aprendendo.</em></h2>
+              <p>A Modular Criativo é parceira de vendas da Unyleya para cursos de graduação e pós-graduação. Acesse a página para conhecer as opções disponíveis e fazer sua matrícula.</p>
+            </div>
+            <a className="button button--orange" href={unyleyaCoursesUrl} target="_blank" rel="noopener noreferrer">Ver cursos e se inscrever <span>↗</span></a>
           </div>
         </section>
 
